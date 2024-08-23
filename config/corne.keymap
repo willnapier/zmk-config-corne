@@ -69,12 +69,12 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 29>;
+            key-positions = <1 2>;
         };
 
         delete {
@@ -156,16 +156,6 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <33 32>;
         };
-
-        para-less {
-            bindings = <&paraless>;
-            key-positions = <20 19>;
-        };
-
-        para-great {
-            bindings = <&paragreat>;
-            key-positions = <20 21>;
-        };
     };
 
     //
@@ -181,10 +171,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp TAB    &kp Q        &kp W       &kp F         &lt 3 P       &kp B      &kp J    &kp L        &kp U          &kp Y    &kp SEMICOLON  &kp BACKSPACE
-&kp LSHFT  &hm LC(A) A  &hm LALT R  &hm LGUI S    &hm LSHIFT T  &lt 4 G    &kp M    &kp N        &kp E          &kp I    &kp O          &kp SQT
-&kp LCTRL  &kp Z        &kp X       &kp C         &kp D         &kp V      &kp K    &kp H        &kp COMMA      &kp DOT  &kp SQT        &kp RSHFT
-                                    &kp LEFT_GUI  &mo 1         &kp TAB    &kp RET  &lt 2 SPACE  &kp RIGHT_ALT
+&kp TAB    &kp Q        &kp W       &kp F         &lt 3 P       &kp B      &kp J    &kp L              &kp U           &kp Y           &kp SEMICOLON  &kp BACKSPACE
+&kp LSHFT  &hm LCTRL A  &hm LALT R  &hm LGUI S    &hm LSHIFT T  &lt 4 G    &kp M    &hm RIGHT_SHIFT N  &hm LEFT_GUI E  &hm LEFT_ALT I  &hm RCTRL O    &kp SQT
+&kp LCTRL  &kp Z        &kp X       &kp C         &kp D         &kp V      &kp K    &kp H              &kp COMMA       &kp DOT         &kp SQT        &kp RSHFT
+                                    &kp LEFT_GUI  &mo 1         &kp TAB    &kp RET  &lt 2 SPACE        &kp RIGHT_ALT
             >;
         };
 
