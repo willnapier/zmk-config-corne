@@ -3,9 +3,10 @@
 #include <dt-bindings/zmk/mouse.h>
 
 #define DEF 0
-#define NAV 1
-#define SYM 2
-#define ADJ 3
+#define SYM 1
+#define NAV 2
+#define MOUSE 3
+#define NUM 4
 
 / {
     behaviors {
@@ -227,12 +228,12 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        l3 {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    //conditional_layers {
+    //    compatible = "zmk,conditional-layers";
+    //
+    //  l3 {
+    //      if-layers = <1 2>;
+    //      then-layer = <3>;
+    //    };
+    //};
 };
