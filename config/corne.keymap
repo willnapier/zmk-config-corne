@@ -212,7 +212,7 @@
         Mouse {
             bindings = <
 &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans    &trans  &trans                &trans                &trans              &trans                 &trans
-&trans  &trans  &trans     &trans     &trans  &trans    &trans  &MouseMove MOVE_LEFT  &MouseMove MOVE_DOWN  &MouseMove MOVE_UP  &MouseMove MOVE_RIGHT  &trans
+&trans  &trans  &trans     &trans     &trans  &trans    &trans  &mousemove MOVE_LEFT  &mousemove MOVE_DOWN  &mousemove MOVE_UP  &mousemove MOVE_RIGHT  &trans
 &trans  &trans  &trans     &trans     &trans  &trans    &trans  &mkp LCLK             &mkp RCLK             &trans              &bootloader            &trans
                            &trans     &trans  &trans    &trans  &trans                &trans
             >;
