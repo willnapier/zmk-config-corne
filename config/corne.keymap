@@ -55,7 +55,7 @@
             mods = <(MOD_LSFT)>;
         };
 
-        MouseMove: MouseMove {
+        mousemove: mousemove {
             compatible = "zmk,behavior-mouse-move";
             label = "MOUSEMOVE";
             #binding-cells = <1>;
